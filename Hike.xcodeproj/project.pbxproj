@@ -11,6 +11,9 @@
 		EB7CCEE42B6E3C480038A367 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7CCEE32B6E3C480038A367 /* ContentView.swift */; };
 		EB7CCEE62B6E3C550038A367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7CCEE52B6E3C550038A367 /* Assets.xcassets */; };
 		EB7CCEE92B6E3C550038A367 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7CCEE82B6E3C550038A367 /* Preview Assets.xcassets */; };
+		EB7CCEF02B6E3F690038A367 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7CCEEF2B6E3F690038A367 /* CardView.swift */; };
+		EB7CCEF32B6E40C70038A367 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7CCEF22B6E40C70038A367 /* CustomBackgroundView.swift */; };
+		EB7CCEF62B6E43620038A367 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7CCEF52B6E43620038A367 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		EB7CCEE32B6E3C480038A367 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB7CCEE52B6E3C550038A367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB7CCEE82B6E3C550038A367 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB7CCEEF2B6E3F690038A367 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EB7CCEF22B6E40C70038A367 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		EB7CCEF52B6E43620038A367 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +57,12 @@
 		EB7CCEE02B6E3C480038A367 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				EB7CCEF42B6E43400038A367 /* Utility */,
 				EB7CCEE12B6E3C480038A367 /* HikeApp.swift */,
 				EB7CCEE32B6E3C480038A367 /* ContentView.swift */,
 				EB7CCEE52B6E3C550038A367 /* Assets.xcassets */,
 				EB7CCEE72B6E3C550038A367 /* Preview Content */,
+				EB7CCEF12B6E40980038A367 /* Components */,
 			);
 			path = Hike;
 			sourceTree = "<group>";
@@ -65,6 +73,23 @@
 				EB7CCEE82B6E3C550038A367 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB7CCEF12B6E40980038A367 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EB7CCEEF2B6E3F690038A367 /* CardView.swift */,
+				EB7CCEF22B6E40C70038A367 /* CustomBackgroundView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EB7CCEF42B6E43400038A367 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				EB7CCEF52B6E43620038A367 /* ColorExtension.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +121,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
+				ORGANIZATIONNAME = "TriTree Solutions";
 				TargetAttributes = {
 					EB7CCEDD2B6E3C480038A367 = {
 						CreatedOnToolsVersion = 15.2;
@@ -138,7 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB7CCEE42B6E3C480038A367 /* ContentView.swift in Sources */,
+				EB7CCEF02B6E3F690038A367 /* CardView.swift in Sources */,
 				EB7CCEE22B6E3C480038A367 /* HikeApp.swift in Sources */,
+				EB7CCEF32B6E40C70038A367 /* CustomBackgroundView.swift in Sources */,
+				EB7CCEF62B6E43620038A367 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
