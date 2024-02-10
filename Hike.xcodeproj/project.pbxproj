@@ -16,6 +16,7 @@
 		EB7CCEF62B6E43620038A367 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7CCEF52B6E43620038A367 /* ColorExtension.swift */; };
 		EBA8D07D2B77890E00FD486D /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA8D07C2B77890E00FD486D /* CustomButtonView.swift */; };
 		EBA8D07F2B778EF800FD486D /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA8D07E2B778EF800FD486D /* GradientButtonStyle.swift */; };
+		EBA8D0812B7797A900FD486D /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA8D0802B7797A900FD486D /* CustomCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		EB7CCEF52B6E43620038A367 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		EBA8D07C2B77890E00FD486D /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		EBA8D07E2B778EF800FD486D /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		EBA8D0802B7797A900FD486D /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				EB7CCEF52B6E43620038A367 /* ColorExtension.swift */,
 				EBA8D07E2B778EF800FD486D /* GradientButtonStyle.swift */,
+				EBA8D0802B7797A900FD486D /* CustomCircleView.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB7CCEE42B6E3C480038A367 /* ContentView.swift in Sources */,
+				EBA8D0812B7797A900FD486D /* CustomCircleView.swift in Sources */,
 				EB7CCEF02B6E3F690038A367 /* CardView.swift in Sources */,
 				EB7CCEE22B6E3C480038A367 /* HikeApp.swift in Sources */,
 				EBA8D07D2B77890E00FD486D /* CustomButtonView.swift in Sources */,
